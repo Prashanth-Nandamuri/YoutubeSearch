@@ -1,0 +1,28 @@
+.page {
+    margin: 10px;
+    padding-top: 6%;
+    width: 100%;
+    background-image: url("bg/image.jpg");
+}
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+th{
+    height: 50px;
+}
+#data{
+    width: 100%;
+    display: inline-block;
+    max-height: 400px;
+    overflow-x: auto;
+}
+#About, #Home{
+    background-image: url("bg/image1.jpg");
+}
+#Contact{
+    padding-top: 16%;
+    background-image: url("bg/image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
